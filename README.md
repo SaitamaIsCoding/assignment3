@@ -4,7 +4,7 @@
 This repository contains a multi-page responsive website developed as part of Assignment 3. The project demonstrates the implementation of semantic HTML5, custom CSS (Flexbox and Grid), and the Bootstrap 5 framework to ensure full responsiveness across mobile, tablet, and desktop devices. This is a solo project developed entirely from scratch.
 
 ## Live Demo
-[Insert link to GitHub Pages or Netlify here]
+https://saitamaiscoding.github.io/assignment3/
 
 ## Developer
 **Isatay Mahambetuly**
@@ -25,9 +25,3 @@ This repository contains a multi-page responsive website developed as part of As
 * HTML5
 * CSS3 (Flexbox, CSS Grid, Media Queries)
 * Bootstrap 5.3
-
-## Local Setup
-1. Clone this repository:
-   `git clone [Insert repository link]`
-2. Open the project folder in your IDE (e.g., VS Code).
-3. Open `index.html` using Live Server or directly in a web browser.
