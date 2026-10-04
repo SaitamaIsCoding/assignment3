@@ -1,0 +1,75 @@
+.task-0 h1 { font-size: 20px; }
+.task-0 p { font-size: 14px; }
+
+@media (min-width: 768px) {
+    .task-0 h1 { font-size: 28px; }
+    .task-0 p { font-size: 16px; }
+}
+
+@media (min-width: 992px) {
+    .task-0 h1 { font-size: 36px; }
+    .task-0 p { font-size: 18px; }
+}
+
+.task-1-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.task-1-box {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .task-1-box {
+        width: calc(50% - 7.5px);
+    }
+}
+
+@media (min-width: 992px) {
+    .task-1-box {
+        width: calc(33.333% - 10px);
+    }
+}
+
+.portfolio-section {
+    padding: 40px 0;
+}
+
+.custom-spacing {
+    margin-top: 15px;
+}
+
+@media (min-width: 992px) {
+    .custom-spacing {
+        margin-top: 0;
+    }
+}
+.custom-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 123, 255, 0.15); 
+    cursor: pointer;
+}
+.about-card {
+    background: linear-gradient(135deg, #1a1a24 0%, #2b2b36 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}

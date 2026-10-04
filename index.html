@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3 - Responsive Web Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#part1">Part 1 (Pure CSS)</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#part2">Part 2 (Bootstrap)</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#part3">Part 3 (Portfolio)</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <section id="part1" class="mb-5">
+            <h2 class="mb-4">Part 1. Media Queries (No Bootstrap Grid here)</h2>
+            
+            <div class="task-0 mb-4 border p-3">
+                <h3>Task 0: Responsive Typography</h3>
+                <h1>This heading changes size!</h1>
+                <p>Resize the browser window to see the font sizes of this heading and paragraph adjust for mobile, tablet, and desktop using pure CSS media queries.</p>
+            </div>
+
+            <div class="border p-3">
+                <h3>Task 1: Responsive Layout with Media Queries</h3>
+                <div class="task-1-container">
+                    <div class="task-1-box">Box 1</div>
+                    <div class="task-1-box">Box 2</div>
+                    <div class="task-1-box">Box 3</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="part2" class="mb-5 border p-3">
+            <h2 class="mb-4">Part 2. Bootstrap Grid System</h2>
+            <h3>Task 2: Bootstrap Responsive Columns</h3>
+            
+            <div class="row g-3">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="p-3 bg-success text-white text-center">Bootstrap Col 1</div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="p-3 bg-success text-white text-center">Bootstrap Col 2</div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="p-3 bg-success text-white text-center">Bootstrap Col 3</div>
+                </div>
+            </div>
+        </section>
+
+<section id="part3" class="portfolio-section">
+            <h2 class="mb-4 text-center">Part 3. Combined Project: Portfolio</h2>
+            <div class="row">
+                <div class="col-lg-8">
+                    <h4>My Projects</h4>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="card custom-card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hotel Booking System</h5>
+                                    <p class="card-text">Object-oriented Java application with a SQL database integration.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card custom-card">
+                                <div class="card-body">
+                                    <h5 class="card-title">DBMS Architecture</h5>
+                                    <p class="card-text">Relational database management using PostgreSQL (scripts, views, and triggers).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card custom-card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Property Valuation</h5>
+                                    <p class="card-text">Machine learning and interactive real estate valuation in Python (Jupyter Notebook).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card custom-card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Kolesa.kz AI Concept</h5>
+                                    <p class="card-text">Ad ranking feature design compliant with responsible AI Act standards.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 custom-spacing">
+                    <div class="card about-card">
+                        <div class="card-body">
+                            <h4>About Me</h4>
+                            <ul class="list-unstyled text-white">
+                                <li><strong>Name:</strong> Махамбетұлы Исатай</li>
+                                <li><strong>Group:</strong> IT-2513</li>
+                                <li><strong>Email:</strong> 254734@astanait.edu.kz</li>
+                            </ul>
+                            <a href="mailto:254734@astanait.edu.kz" class="btn btn-primary w-100 mt-2">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p class="mb-0">&copy; 2026 Responsive Web Design Assignment. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
